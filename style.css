@@ -4,9 +4,37 @@
    box-sizing: border-box;
 }
 
-*, html{
-   font-size: 13pt;
-   /* background: rgb(218, 214, 214); */
+html{
+   font-size: 12px;
+   font-family: 'Lexend Deca', 'Big Shoulders Display';
+}
+
+h1{
+   text-align: center;
+   font-size: 1.76em;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: hsl(0, 0%, 95%);
+   padding: 10px;
+}
+
+ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: hsl(0, 0%, 95%);
+   border-radius: 10px;
+   margin-top: 5px;
+}
+
+li, a{
+   list-style-type: none;
+   padding: 15px;
 }
 
 .box-wrapper{
@@ -18,6 +46,7 @@
    flex-direction: column;
    padding: 10px;
    align-items: flex-start;
+   color: #fff;
 }
 
 h2, p, button{
@@ -31,15 +60,39 @@ button{
 }
 
 .box.sedan{
-   background: red;
+   background: hsl(31, 77%, 52%);
 }
 
 .box.suvs{
-   background: blue;
+   background: hsl(184, 100%, 22%);
 }
 
 .box.luxury{
-   background: green;
+   background: hsl(179, 100%, 13%);
+}
+
+.box h2{
+   color: hsl(0, 0%, 95%);
+}
+
+.box p{
+   color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+   background: hsl(0, 0%, 95%);
+}
+
+.sedan button{
+   color: hsl(31, 77%, 52%);
+}
+
+.suvs button{
+   color: hsl(184, 100%, 22%);
+}
+
+.luxury button{
+   color: hsl(179, 100%, 13%);
 }
 
 /* Grid Section */
@@ -47,9 +100,11 @@ button{
 .grid-wrapper{
    display: grid;
    gap: .123em;
-   width: 70%;
+   width: 40%;
    margin: 10px auto;
    height: fit-content;
+   background: rgb(1, 17, 17);
+   padding: 10px 55px 15px 10px;
 }
 
 .orangered{
