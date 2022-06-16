@@ -1,4 +1,4 @@
-*, ::before, ::after{
+*, html, body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -7,7 +7,6 @@
 html, body{
    font-size: 12px;
    font-family: 'Lexend Deca', 'Big Shoulders Display';
-   width: 1440px;
 }
 
 @media and screen (max-width: 600px){
@@ -104,8 +103,8 @@ button{
 }
 
 @media screen and (max-width: 480px) {
-.box{
-flex-direction: column;
+.box-wrapper{
+display: block;
 }
 }
 
