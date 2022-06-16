@@ -95,6 +95,11 @@ button{
    color: hsl(179, 100%, 13%);
 }
 
+@media screen and (max-width: 600px) {
+.box{
+flex-direction: column;
+}
+
 /* Grid Section */
 
 .grid-wrapper{
