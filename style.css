@@ -4,9 +4,16 @@
    box-sizing: border-box;
 }
 
-html{
+html, body{
    font-size: 12px;
    font-family: 'Lexend Deca', 'Big Shoulders Display';
+   width: 1440px;
+}
+
+@media and screen (max-width: 600px){
+html, body{
+width: 375px;
+}
 }
 
 h1{
@@ -107,9 +114,9 @@ flex-direction: column;
 .grid-wrapper{
    display: grid;
    gap: .123em;
-   width: 40%;
+   width: 50%;
    margin: 10px auto;
-   height: fit-content;
+   height: 100vh;
    background: rgb(1, 17, 17);
    padding: 10px 55px 15px 10px;
 }
