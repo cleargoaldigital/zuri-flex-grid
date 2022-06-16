@@ -9,12 +9,6 @@ html, body{
    font-family: 'Lexend Deca', 'Big Shoulders Display';
 }
 
-@media and screen (max-width: 600px){
-html, body{
-max-width: 375px;
-}
-}
-
 h1{
    text-align: center;
    font-size: 1.76em;
