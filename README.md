@@ -1,4 +1,4 @@
-# -cleargoal-django-
+# access page here: https://cleargoaldigital.github.io/zuri-flex-grid/
 
 A) Recreate a 3-column card design using CSS Flexbox  Layout
 - This task should be on the index.html file .
